@@ -1,0 +1,59 @@
+
+
+/* Ensure full screen */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+  position: fixed; /* Fixed position to stay at the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure navbar is above other content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #6e50db;
+  color: #ffffff;
+}
+
+.left-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.app-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Add space between navbar and content */
+.content {
+  padding-top: 80px; /* Adjust as needed */
+}
+
+/* Search bar styles */
+.search-bar {
+  margin-top: 20px; /* Add space between navbar and search bar */
+  margin-bottom: 20px; /* Add space between search bar and user profile */
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* User profile styles */
+.user-profile {
+  margin-bottom: 50px; /* Add space between search bar and user profile */
+  padding: 1rem;
+  background-color: #6f6c94;
+  border-radius: 8px;
+}
